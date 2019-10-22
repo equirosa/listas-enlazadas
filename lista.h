@@ -1,6 +1,6 @@
 /*
- * <one line to give the program's name and a brief idea of what it does.>
- * Copyright (C) 2019  <copyright holder> <email>
+ * Header for a linked list class.
+ * Copyright (C) 2019  Eduardo Quiros eduardo@eduardoquiros.com
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,19 +25,19 @@
 class Lista
 {
 private:
-    typedef struct node{
+    typedef struct node {
         int data;
         node* next;
     }* nodePtr;
-    
+
     nodePtr head;
     nodePtr current;
     nodePtr temp;
-    
+
 public:
     Lista();
-    void AddNode(int data);
-    void DeleteNode(int data);
+    void AddNode ( int data );
+    void DeleteNode ( int data );
     void PrintLista();
 };
 

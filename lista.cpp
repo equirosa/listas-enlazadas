@@ -45,20 +45,20 @@ void Lista::AddNode ( int data )
     }
 }
 
-void Lista::DeleteNode(int data){
+void Lista::DeleteNode ( int data )
+{
     nodePtr delPtr = NULL;
     temp = head;
     current = head;
-    
-    while(current != NULL && current->data != data){
+
+    while ( current != NULL && current->data != data ) {
         temp = current;
         current = current->next;
     }
-    if(current == NULL){
+    if ( current == NULL ) {
         cout << data << "no encontrado en la lista\n";
         delete delPtr;
-    }
-    else{
+    } else {
         delPtr = current;
         current = current->next;
         temp->next = current;
@@ -67,9 +67,10 @@ void Lista::DeleteNode(int data){
     }
 }
 
-void Lista::PrintLista(){
+void Lista::PrintLista()
+{
     current = head;
-    while(current!=NULL){
+    while ( current!=NULL ) {
         cout << current->data << endl;
         current = current->next;
     }
