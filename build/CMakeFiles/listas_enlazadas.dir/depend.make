@@ -4,5 +4,6 @@
 CMakeFiles/listas_enlazadas.dir/lista.cpp.o: ../lista.cpp
 CMakeFiles/listas_enlazadas.dir/lista.cpp.o: ../lista.h
 
+CMakeFiles/listas_enlazadas.dir/main.cpp.o: ../lista.h
 CMakeFiles/listas_enlazadas.dir/main.cpp.o: ../main.cpp
 

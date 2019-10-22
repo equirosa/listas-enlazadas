@@ -56,14 +56,14 @@ void Lista::DeleteNode ( int data )
         current = current->next;
     }
     if ( current == NULL ) {
-        cout << data << "no encontrado en la lista\n";
+        cout << "Valor " << data << " no encontrado en la lista.\n";
         delete delPtr;
     } else {
         delPtr = current;
         current = current->next;
         temp->next = current;
         delete delPtr;
-        cout << "Elemento borrado\n";
+        cout << "Elemento borrado.\n";
     }
 }
 
