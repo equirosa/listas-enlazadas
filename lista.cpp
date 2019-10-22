@@ -40,6 +40,7 @@ void Lista::AddNode ( int data )
         while ( current->next != NULL ) { //Si no esta al final de la lista, continua.
             current = current->next;
         }
+        current->next = n;
     } else {
         head = n;
     }
