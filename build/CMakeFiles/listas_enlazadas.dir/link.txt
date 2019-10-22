@@ -1,0 +1,1 @@
+/run/current-system/sw/bin/c++    -rdynamic CMakeFiles/listas_enlazadas.dir/main.cpp.o  -o listas_enlazadas 

@@ -1,0 +1,6 @@
+/home/eduardo/projects/listas_enlazadas/build/CMakeFiles/install.dir
+/home/eduardo/projects/listas_enlazadas/build/CMakeFiles/install/local.dir
+/home/eduardo/projects/listas_enlazadas/build/CMakeFiles/list_install_components.dir
+/home/eduardo/projects/listas_enlazadas/build/CMakeFiles/rebuild_cache.dir
+/home/eduardo/projects/listas_enlazadas/build/CMakeFiles/listas_enlazadas.dir
+/home/eduardo/projects/listas_enlazadas/build/CMakeFiles/edit_cache.dir
