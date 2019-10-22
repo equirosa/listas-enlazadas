@@ -157,6 +157,33 @@ listas_enlazadas/fast:
 	$(MAKE) -f CMakeFiles/listas_enlazadas.dir/build.make CMakeFiles/listas_enlazadas.dir/build
 .PHONY : listas_enlazadas/fast
 
+lista.o: lista.cpp.o
+
+.PHONY : lista.o
+
+# target to build an object file
+lista.cpp.o:
+	$(MAKE) -f CMakeFiles/listas_enlazadas.dir/build.make CMakeFiles/listas_enlazadas.dir/lista.cpp.o
+.PHONY : lista.cpp.o
+
+lista.i: lista.cpp.i
+
+.PHONY : lista.i
+
+# target to preprocess a source file
+lista.cpp.i:
+	$(MAKE) -f CMakeFiles/listas_enlazadas.dir/build.make CMakeFiles/listas_enlazadas.dir/lista.cpp.i
+.PHONY : lista.cpp.i
+
+lista.s: lista.cpp.s
+
+.PHONY : lista.s
+
+# target to generate assembly for a file
+lista.cpp.s:
+	$(MAKE) -f CMakeFiles/listas_enlazadas.dir/build.make CMakeFiles/listas_enlazadas.dir/lista.cpp.s
+.PHONY : lista.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -196,6 +223,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... listas_enlazadas"
 	@echo "... edit_cache"
+	@echo "... lista.o"
+	@echo "... lista.i"
+	@echo "... lista.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

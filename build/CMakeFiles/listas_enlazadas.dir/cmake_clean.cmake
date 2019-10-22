@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/listas_enlazadas.dir/lista.cpp.o"
   "CMakeFiles/listas_enlazadas.dir/main.cpp.o"
   "listas_enlazadas"
   "listas_enlazadas.pdb"
